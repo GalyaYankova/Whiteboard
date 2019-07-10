@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    background: linear-gradient(rgba(44, 44, 44, 0.9), rgba(183, 183, 183, 0.1)), url("../E1_04_Whiteboard/Requirements-and-Resources/image/computer-main.jpg") no-repeat center;
+    background-size: cover;   
+    color: white; 
+    width: 100%;
+    text-shadow: 2px 2px 2px black;
+}
+
+header > nav {
+    margin-top: 10px;
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 20px 50px 25px 50px;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+header p {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+header > p {
+    margin-top: 25px;
+}
+
+header > p:last-of-type {
+    margin-bottom: 10px;
+}
+
+button {
+    background: #00D08E;
+    border: none;
+    color: white;
+    padding: 9px 15px;
+    display: block;
+    margin: auto;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div {
+    flex-basis: 50%;
+}
+
+main div img {
+    width: 100%;
+}
+
+
+.right-top-inside {
+    width: 80%;
+    margin: auto;
+}
+
+.left-bottom > h2,
+.right-top-inside > h2 {
+    font-size: 20px;
+}
+
+.right-top-inside > p {
+    font-size: 16px;
+}
+
+.right-top-inside li {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.right-top-inside li > i{
+    color: #00D08E;
+    margin-right: 10px;
+}
+
+.right-top ul{
+    padding-left: 0;
+}
+
+.left-bottom {
+    text-align: center;
+}
+
+.left-bottom ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left-bottom h2 {
+    text-align: center;
+
+}
+
+.left-bottom ul li{
+    flex-basis: 33%;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.left-top {
+    background: url("../E1_04_Whiteboard/Requirements-and-Resources/image/tablet.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.right-bottom {
+    background: url("../E1_04_Whiteboard/Requirements-and-Resources/image/pen.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.left-bottom > ul > li > img {
+    width: 50%;
+}
+
+.left-bottom > ul > li > div{
+    color: #00D096;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+footer {
+    background: #b2f1dd;
+    padding-top: 15px;
+    padding-bottom: 20px;
+   
+}
+
+footer h2{
+    text-align: center;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+
+footer ul li{
+    flex-basis: 25%;
+    list-style-type: none;
+    margin: 10px 20px;
+    padding-left: 0;
+    
+}
+
+footer h3{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 4px;
+    font-weight: 900;
+}
+
+footer p{
+    font-size: 12px;
+    text-align: center;
+    margin: 0 8px;
+}
+
+footer > p > span {
+    color: black;
+    font-weight: 800;
+} 
