@@ -9,7 +9,7 @@ body {
 header {
     padding-top: 10px;
     padding-bottom: 25px;
-    background: linear-gradient(rgba(44, 44, 44, 0.9), rgba(183, 183, 183, 0.1)), url(".docs/computer-main.jpg") no-repeat center;
+    background: linear-gradient(rgba(44, 44, 44, 0.9), rgba(183, 183, 183, 0.1)), url("docs/computer-main.jpg") no-repeat center;
     background-size: cover;   
     color: white; 
     width: 100%;
@@ -125,12 +125,12 @@ main div img {
 }
 
 .left-top {
-    background: url(".docs/tablet.jpg") no-repeat center;
+    background: url("docs/tablet.jpg") no-repeat center;
     background-size: cover;
 }
 
 .right-bottom {
-    background: url(".docs/pen.jpg") no-repeat center;
+    background: url("docs/pen.jpg") no-repeat center;
     background-size: cover;
 }
 
